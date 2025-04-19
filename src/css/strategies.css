@@ -1,0 +1,58 @@
+.strategies {
+  padding-bottom: 171px;
+}
+
+.strategies-title {
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 10px;
+}
+
+.strategies-text {
+  max-width: 415px;
+  font-weight: 500;
+  line-height: 1.63;
+  color: #22343d;
+  margin-bottom: 40px;
+}
+
+.strategies-list {
+  display: flex;
+  gap: 30px;
+}
+
+.strategies-item {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  flex-basis: calc((100% - 60px) / 3);
+  overflow: hidden;
+}
+
+.strategies-image {
+  margin-bottom: 24px;
+}
+
+.strategies-text-box {
+  padding: 24px 27px 40px;
+}
+
+.strategies-item-text {
+  line-height: 1.75;
+  color: #22343d;
+  margin-bottom: 12px;
+}
+
+.bolt-text {
+  font-weight: 700;
+}
+
+.strategiesitem-subtitle {
+  font-size: 24px;
+  line-height: 1.67;
+  color: #22343d;
+  transition: color 250ms ease;
+}
+
+.strategies-item:hover .strategiesitem-subtitle {
+  color: #02897a;
+}

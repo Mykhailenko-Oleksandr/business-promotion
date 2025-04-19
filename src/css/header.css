@@ -1,44 +1,106 @@
 .header {
-  padding: 20px 0;
 }
-.nav {
+
+.header-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
-.nav-logo {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav-list {
+
+.header-logo {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+  gap: 16px;
 }
-.nav-link {
-  position: relative;
+
+.header-logo-image {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.header-menu-btn {
+  background-color: transparent;
+  border: none;
+  width: 28px;
+  height: 31px;
+}
+
+.header-menu-btn-icon {
+  fill: #173a56;
+}
+
+.header-navigation {
+  display: none;
+  margin-right: 73px;
+}
+
+.header-navigation-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header-navigation-item {
+}
+
+.header-navigation-link {
   display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: 200ms ease-in;
+  line-height: 1.75;
+  color: #22343d;
+  padding: 26px 0;
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+
+.current {
+  font-weight: 600;
 }
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
+
+.header-btn-list {
+  display: none;
+}
+
+.header-btn-item {
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  min-width: 105px;
+  height: 42px;
+  border-color: transparent;
+  border: 1px solid #bcd0e5;
   border-radius: 4px;
-  transform-origin: center;
-  animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
+  transition: background-color 250ms ease, color 250ms ease,
+    border-color 250ms ease;
 }
-.nav-link.active::after {
-  background: #747bff;
+
+.header-btn:hover,
+.header-btn:focus {
+  color: #fff;
+  background-color: #02897a;
+  border-color: transparent;
+}
+
+@media screen and (min-width: 1150px) {
+  .header-logo {
+    margin-right: 283px;
+  }
+
+  .header-menu-btn {
+    display: none;
+  }
+
+  .header-navigation {
+    display: block;
+  }
+
+  .header-btn-list {
+    display: flex;
+    gap: 21px;
+  }
 }
