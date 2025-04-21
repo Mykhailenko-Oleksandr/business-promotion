@@ -2,87 +2,693 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DsvQ6rGA.css">
+    <title>Business promotion</title>
+    <link rel="icon" href="/business-promotion/assets/favicon-CPIQdxmB.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/business-promotion/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/business-promotion/assets/styles-DSLLG1Op.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/vanilla-app-template/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="container header-container">
+    <a class="header-logo" href="./index.html"
+      ><img
+        class="header-logo-image"
+        src="data:image/svg+xml,%3csvg%20width='40'%20height='36'%20viewBox='0%200%2040%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M3.13307%2034.1139C1.40988%2034.1139%201.59211e-07%2032.7182%201.47613e-07%2031.0122L7.38884e-08%2020.1682L7.88631%2020.1682L7.88631%2020.1562L12.6263%2020.1562C13.8482%2020.1251%2014.8821%2019.0706%2014.8821%2017.8299C14.8821%2016.5582%2013.8168%2015.5036%2012.5323%2015.5036L6.26614%2015.5036L6.26614%2015.5055L4.21887e-08%2015.5055L2.10878e-08%2012.4018C9.48962e-09%2010.6959%201.40988%209.30012%203.13307%209.30012L12.5323%209.30012C14.9134%209.30012%2016.9499%2010.1376%2018.6104%2011.8125C20.3023%2013.4564%2021.1482%2015.4726%2021.1482%2017.8299C21.1482%2020.1562%2020.3336%2022.1723%2018.6731%2023.8162C17.0126%2025.4601%2015.0074%2026.3286%2012.6576%2026.3596L6.26614%2026.3596L6.26614%2031.0122C6.26614%2032.7182%204.85626%2034.1139%203.13307%2034.1139Z'%20fill='%2302BC6B'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M25.0975%205.7002C28.5589%209.0287%2030.3031%2013.1742%2030.3031%2017.8865C30.3031%2022.5197%2028.6319%2026.6613%2025.2239%2030.0002L20.3852%2025.4931C22.5047%2023.4166%2023.545%2020.9166%2023.545%2017.8865C23.545%2014.8333%2022.4734%2012.3372%2020.3031%2010.2502L25.0975%205.7002Z'%20fill='%2302897A'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M32.5055%20-3.14562e-08C37.4911%204.92801%2039.9999%2011.0384%2039.9999%2018.0514C39.9999%2024.9549%2037.5922%2031.0614%2032.6884%2036L28.0186%2031.4828C31.6715%2027.8041%2033.4614%2023.3422%2033.4614%2018.0514C33.4614%2012.7074%2031.6111%208.24939%2027.8787%204.56008L32.5055%20-3.14562e-08Z'%20fill='%23035B81'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0%2026.3857L6.26614%2026.3857L6.26614%2031.0126C6.26614%2032.7186%204.85626%2034.1143%203.13307%2034.1143C1.40988%2034.1143%204.30547e-08%2032.7186%203.14565e-08%2031.0126L0%2026.3857Z'%20fill='%23028E37'/%3e%3c/svg%3e"
+        alt="logo"
+        width="40"
+        height="36"
+      />Product</a
+    >
+    <button class="header-menu-btn" type="button">
+      <svg class="header-menu-btn-icon" width="28" height="31">
+        <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-menu"></use>
+      </svg>
+    </button>
+    <nav class="header-navigation">
+      <ul class="header-navigation-list">
+        <li class="header-navigation-item">
+          <a class="header-navigation-link current" href="./index.html"
+            >Product</a
+          >
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="header-navigation-item">
+          <a class="header-navigation-link" href="./pricing.html">Pricing</a>
+        </li>
+        <li class="header-navigation-item">
+          <a class="header-navigation-link" href="./customer.html">Customers</a>
+        </li>
+        <li class="header-navigation-item">
+          <a class="header-navigation-link" href="">Resources</a>
         </li>
       </ul>
     </nav>
+    <ul class="header-btn-list">
+      <li class="header-btn-item">
+        <button class="header-btn" type="button">Sign In</button>
+      </li>
+      <li class="header-btn-item">
+        <button class="header-btn" type="button">Sign Up</button>
+      </li>
+    </ul>
   </div>
 </header>
 
 
     <main>
-      <!-- Loads the specified .html file -->
-      <article class="badges">
+      <section class="hero">
+  <div class="container hero-container">
+    <div class="hero-box">
+      <h1 class="hero-title">Work at the speed of thought</h1>
+      <p class="hero-text">
+        Tools, tutorials, design and innovation experts, all in one place! The
+        most intuitive way to imagine your next user experience.
+      </p>
+      <ul class="hero-list">
+        <li class="hero-item">
+          <button class="hero-btn-started" type="button">Get started</button>
+        </li>
+        <li class="hero-item">
+          <button class="hero-btn-video" type="button">
+            <svg class="hero-btn-icon" width="20" height="18">
+              <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-triangle"></use>
+            </svg>
+            Watch the Video
+          </button>
+        </li>
+      </ul>
+    </div>
+    <img
+      class="hero-image"
+      src="/business-promotion/assets/hero-img-BzB70fHS.svg"
+      alt="people"
+      width="610"
+      height="555"
+    />
+  </div>
+</section>
+
+      <section class="feature">
   <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <h2 class="feature-title">Product was Built Specifically for You</h2>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon-box green">
+          <svg class="feature-icon" width="11" height="18">
+            <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-icon-1"></use>
+          </svg>
+        </div>
+        <h3 class="feature-subtitle">First click tests</h3>
+        <p class="feature-text">While most people enjoy casino gambling,</p>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+      <li class="feature-item">
+        <div class="feature-icon-box blue">
+          <svg class="feature-icon" width="18" height="18">
+            <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-icon-2"></use>
+          </svg>
+        </div>
+        <h3 class="feature-subtitle">Design surveys</h3>
+        <p class="feature-text">
+          Sports betting, lottery and bingo playing for the fun
+        </p>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="feature-item">
+        <div class="feature-icon-box violet">
+          <svg class="feature-icon" width="16" height="18">
+            <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-icon-3"></use>
+          </svg>
+        </div>
+        <h3 class="feature-subtitle">Preference tests</h3>
+        <p class="feature-text">The Myspace page defines the individual.</p>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon-box red">
+          <svg class="feature-icon" width="14" height="18">
+            <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-icon-4"></use>
+          </svg>
+        </div>
+        <h3 class="feature-subtitle">Five second tests</h3>
+        <p class="feature-text">
+          Personal choices and the overall personality of the person.
+        </p>
+      </li>
+    </ul>
+    <button class="feature-btn">sign up now</button>
+  </div>
+</section>
+
+      <section class="benefits">
+  <div class="container">
+    <h2 class="visually-hidden">Description benefits</h2>
+    <ul class="benefits-list">
+      <li class="benefits-item">
+        <div class="benefits-text-box">
+          <p class="benefits-text-top">Effortless Validation for</p>
+          <h3 class="benefits-subtitle">Management</h3>
+          <p class="benefits-text">
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <ul class="benefits-sublist">
+            <li class="benefits-sublist-item">
+              <h4 class="benefits-subtitle-smal">Accessory makers</h4>
+              <p class="benefits-text">
+                While most people enjoy casino gambling, sports betting, lottery
+                and bingo playing for the fun
+              </p>
+            </li>
+            <li>
+              <h4 class="benefits-subtitle-smal">Alterationists</h4>
+              <p class="benefits-text">
+                If you are looking for a new way to promote your business that
+                won’t cost you more money,
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <img
+          class="benefits-image"
+          src="/business-promotion/assets/management-img-AkvEBIfY.svg"
+          alt="management"
+          width="540"
+          height="500"
+        />
+      </li>
+      <li class="benefits-item">
+        <img
+          class="benefits-image"
+          src="/business-promotion/assets/support-img-B-NE7dH_.svg"
+          alt="laptop"
+          width="540"
+          height="500"
+        />
+        <div class="benefits-text-box">
+          <p class="benefits-text-top">Easier decision making for</p>
+          <h3 class="benefits-subtitle">Customer Support</h3>
+          <p class="benefits-text">
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <ul class="benefits-sublist benefits-sublist-center">
+            <li class="benefits-sublist-center-item">
+              <div class="benefits-icon-box yellow">
+                <svg class="benefits-icon" width="16" height="12">
+                  <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-path"></use>
+                </svg>
+              </div>
+              <p class="benefits-text">
+                Never worry about overpaying for your energy again.
+              </p>
+            </li>
+            <li class="benefits-sublist-center-item">
+              <div class="benefits-icon-box red">
+                <svg class="benefits-icon" width="16" height="12">
+                  <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-path"></use>
+                </svg>
+              </div>
+              <p class="benefits-text">
+                We will only switch you to energy companies that we trust and
+                will treat you right
+              </p>
+            </li>
+            <li class="benefits-sublist-center-item">
+              <div class="benefits-icon-box blue">
+                <svg class="benefits-icon" width="16" height="12">
+                  <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-path"></use>
+                </svg>
+              </div>
+              <p class="benefits-text">
+                We track the markets daily and know where the savings are.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="benefits-item">
+        <div class="benefits-text-box">
+          <p class="benefits-text-top">Optimisation for</p>
+          <h3 class="benefits-subtitle">Collaborative</h3>
+          <p class="benefits-text">
+            Few would argue that, despite the advancements of feminism over the
+            past three decades, women still face a double standard when it comes
+            to their behavior.
+          </p>
+          <ul class="benefits-sublist">
+            <li>
+              <h4 class="benefits-subtitle-smal">Accessory makers</h4>
+              <p class="benefits-text">
+                While most people enjoy casino gambling, sports betting, lottery
+                and bingo playing for the fun
+              </p>
+            </li>
+            <li>
+              <h4 class="benefits-subtitle-smal">Alterationists</h4>
+              <p class="benefits-text">
+                If you are looking for a new way to promote your business that
+                won’t cost you more money,
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <img
+          class="benefits-image"
+          src="/business-promotion/assets/collaboration-img-Bmf1l27D.svg"
+          alt="collaboration"
+          width="540"
+          height="500"
+        />
       </li>
     </ul>
   </div>
-</article>
+</section>
+
+      <section class="staff">
+  <div class="container staff-container">
+    <h2 class="staff-title">Quick & Easy Process</h2>
+    <p class="staff-text">
+      Do you require some help for your project: Conception workshop,
+      prototyping, marketing strategy, landing page, Ux/UI?
+    </p>
+    <ul class="staff-list">
+      <li class="staff-item">
+        <img
+          class="staff-image"
+          src="/business-promotion/assets/avatar-1-D74-NVWd.png"
+          srcset="/business-promotion/assets/avatar-1-D74-NVWd.png 1x, /business-promotion/assets/avatar-1@2x-DmZf5JzP.png 2x"
+          alt="woman"
+          width="98"
+          height="98"
+        />
+        <div class="staff-text-box">
+          <p class="staff-item-text">I can take care of your pitch</p>
+        </div>
+      </li>
+      <li class="staff-item">
+        <div class="staff-text-box">
+          <p class="staff-item-text">I can prototype your app</p>
+        </div>
+        <img
+          class="staff-image"
+          src="/business-promotion/assets/avatar-2-PjvKFe4g.png"
+          srcset="/business-promotion/assets/avatar-2-PjvKFe4g.png 1x, /business-promotion/assets/avatar-2@2x-CRI7nUIp.png 2x"
+          alt="old woman"
+          width="98"
+          height="98"
+        />
+      </li>
+      <li class="staff-item">
+        <div class="staff-text-box">
+          <p class="staff-item-text">I can take care of your pitch</p>
+        </div>
+        <img
+          class="staff-image"
+          src="/business-promotion/assets/avatar-3-BrEBSVNg.png"
+          srcset="/business-promotion/assets/avatar-3-BrEBSVNg.png 1x, /business-promotion/assets/avatar-3@2x-PlH8EciO.png 2x"
+          alt="young man"
+          width="98"
+          height="98"
+        />
+      </li>
+      <li class="staff-item">
+        <img
+          class="staff-image"
+          src="/business-promotion/assets/avatar-4-C9xxxJgC.png"
+          srcset="/business-promotion/assets/avatar-4-C9xxxJgC.png 1x, /business-promotion/assets/avatar-4@2x-Bec00h6Q.png 2x"
+          alt="man"
+          width="98"
+          height="98"
+        />
+        <div class="staff-text-box">
+          <p class="staff-item-text">I can help marketing strategy</p>
+        </div>
+      </li>
+    </ul>
+    <button class="staff-btn" type="button">Contact our expert</button>
+  </div>
+</section>
+
+      <section class="strategies">
+  <div class="container">
+    <h2 class="strategies-title">Contents Strategies</h2>
+    <p class="strategies-text">
+      We focus on ergonomics and meeting you where you work. It's only a
+      keystroke away.
+    </p>
+    <ul class="strategies-list">
+      <li class="strategies-item">
+        <img
+          class="strategies-image"
+          src="/business-promotion/assets/strategies-1-BYNK3GjM.jpg"
+          srcset="/business-promotion/assets/strategies-1-BYNK3GjM.jpg 1x, /business-promotion/assets/strategies-1@2x-1Xo6bB6K.jpg 2x"
+          alt="laptop"
+          width="350"
+          height="185"
+        />
+        <div class="strategies-text-box">
+          <p class="strategies-item-text">
+            By <span class="bolt-text">Wahid Ari</span> | 03 March 2019
+          </p>
+          <h3 class="strategiesitem-subtitle">
+            Increasing Prosperity With Positive Thinking
+          </h3>
+        </div>
+      </li>
+      <li class="strategies-item">
+        <img
+          class="strategies-image"
+          src="/business-promotion/assets/strategies-2-HiTR2D0T.jpg"
+          srcset="/business-promotion/assets/strategies-2-HiTR2D0T.jpg 1x, /business-promotion/assets/strategies-2@2x-CNl9cei3.jpg 2x"
+          alt="windows"
+          width="350"
+          height="185"
+        />
+        <div class="strategies-text-box">
+          <p class="strategies-item-text">
+            By <span class="bolt-text">Wahid Ari</span> | 03 March 2019
+          </p>
+          <h3 class="strategiesitem-subtitle">
+            Motivation Is The First Step To Success
+          </h3>
+        </div>
+      </li>
+      <li class="strategies-item">
+        <img
+          class="strategies-image"
+          src="/business-promotion/assets/strategies-3-HSuYR6oD.jpg"
+          srcset="/business-promotion/assets/strategies-3-HSuYR6oD.jpg 1x, /business-promotion/assets/strategies-3@2x-CRCvQGDa.jpg 2x"
+          alt="build"
+          width="350"
+          height="185"
+        />
+        <div class="strategies-text-box">
+          <p class="strategies-item-text">
+            By <span class="bolt-text">Wahid Ari</span> | 03 March 2019
+          </p>
+          <h3 class="strategiesitem-subtitle">
+            Success Steps For Your Personal Or Business
+          </h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="price">
+  <div class="container">
+    <h2 class="price-title">Price Table</h2>
+    <p class="price-text">We offer competitive price</p>
+    <ul class="price-list">
+      <li class="price-item">
+        <h3 class="price-item-subtitle price-white-text-hover">Free</h3>
+        <p class="price-item-text-top price-white-text-hover">
+          Brief price description
+        </p>
+        <div class="price-item-text-center">
+          <span class="price-item-big-number price-white-text-hover">0</span>
+          <div class="price-item-dollar-box">
+            <span class="price-item-dollar price-white-text-hover">$</span>
+            Per / month
+          </div>
+        </div>
+        <p class="price-item-text-bottom price-white-text-hover">
+          Only 2 Operators
+        </p>
+        <p class="price-item-text-bottom price-white-text-hover">
+          Notifications
+        </p>
+        <p class="price-item-text-bottom price-white-text-hover">
+          Landing Pages
+        </p>
+        <button class="price-item-btn" type="button">Order Now</button>
+      </li>
+      <li class="price-item">
+        <h3 class="price-item-subtitle price-white-text-hover">Standard</h3>
+        <p class="price-item-text-top price-white-text-hover">
+          Brief price description
+        </p>
+        <div class="price-item-text-center">
+          <span class="price-item-big-number price-white-text-hover">5</span>
+          <div class="price-item-dollar-box">
+            <span class="price-item-dollar price-white-text-hover">$</span>
+            Per / month
+          </div>
+        </div>
+        <p class="price-item-text-bottom price-white-text-hover">
+          5+ Operators
+        </p>
+        <p class="price-item-text-bottom price-white-text-hover">
+          Notifications
+        </p>
+        <p class="price-item-text-bottom price-white-text-hover">
+          Landing Pages
+        </p>
+        <button class="price-item-btn" type="button">Order Now</button>
+      </li>
+      <li class="price-item">
+        <h3 class="price-item-subtitle price-white-text-hover">Premium</h3>
+        <p class="price-item-text-top price-white-text-hover">
+          Brief price description
+        </p>
+        <div class="price-item-text-center">
+          <span class="price-item-big-number price-white-text-hover">10</span>
+          <div class="price-item-dollar-box">
+            <span class="price-item-dollar price-white-text-hover">$</span>
+            Per / month
+          </div>
+        </div>
+        <p class="price-item-text-bottom price-white-text-hover">
+          10+ Operators
+        </p>
+        <p class="price-item-text-bottom price-white-text-hover">
+          Notifications
+        </p>
+        <p class="price-item-text-bottom price-white-text-hover">
+          Landing Pages
+        </p>
+        <button class="price-item-btn" type="button">Order Now</button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews">
+  <div class="container">
+    <h2 class="reviews-title">What Clients Say</h2>
+    <p class="reviews-text">
+      Problems trying to resolve the conflict between the two major realms of
+      Classical physics: Newtonian mechanics
+    </p>
+    <ul class="reviews-list">
+      <li class="reviews-item">
+        <svg class="reviews-icon" width="106" height="18">
+          <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-stars"></use>
+        </svg>
+        <p class="reviews-item-text">
+          Product helps you see how many more days you need to work to reach
+          your financial goal.
+        </p>
+        <div class="reviews-user-box">
+          <img
+            class="reviews-image"
+            src="data:image/png;base64,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"
+            srcset="data:image/png;base64,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 1x, /business-promotion/assets/avatar-say-1@2x-DtCbj7Kh.png 2x"
+            alt="woman"
+            width="50"
+            height="50"
+          />
+          <div class="reviews-user-text-box">
+            <a class="reviews-item-link" href="">Wahid Ari</a>
+            <p class="reviews-item-subtext">Designer</p>
+          </div>
+        </div>
+      </li>
+      <li class="reviews-item">
+        <svg class="reviews-icon" width="106" height="18">
+          <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-stars"></use>
+        </svg>
+        <p class="reviews-item-text">
+          Product helps you see how many more days you need to work to reach
+          your financial goal.
+        </p>
+        <div class="reviews-user-box">
+          <img
+            class="reviews-image"
+            src="data:image/png;base64,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"
+            srcset="data:image/png;base64,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 1x, /business-promotion/assets/avatar-say-2@2x-FR1KL2MQ.png 2x"
+            alt="man 1"
+            width="50"
+            height="50"
+          />
+          <div class="reviews-user-text-box">
+            <a class="reviews-item-link" href="">Wahid Ari</a>
+            <p class="reviews-item-subtext">Designer</p>
+          </div>
+        </div>
+      </li>
+      <li class="reviews-item">
+        <svg class="reviews-icon" width="106" height="18">
+          <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-stars"></use>
+        </svg>
+        <p class="reviews-item-text">
+          Product helps you see how many more days you need to work to reach
+          your financial goal.
+        </p>
+        <div class="reviews-user-box">
+          <img
+            class="reviews-image"
+            src="data:image/png;base64,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"
+            srcset="data:image/png;base64,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 1x, /business-promotion/assets/avatar-say-3@2x-csIQVoXr.png 2x"
+            alt="man 2"
+            width="50"
+            height="50"
+          />
+          <div class="reviews-user-text-box">
+            <a class="reviews-item-link" href="">Wahid Ari</a>
+            <p class="reviews-item-subtext">Designer</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
     </main>
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
+    <div class="footer-top-box">
+      <div>
+        <p class="footer-top-box-text">
+          Join 100 Compannies who boost their business with Product
+        </p>
+        <button class="footer-top-box-btn">Get This</button>
+      </div>
+      <img
+        class="footer-top-box-image"
+        src="/business-promotion/assets/screen-BIq6bvhb.png"
+        srcset="/business-promotion/assets/screen-BIq6bvhb.png 1x, /business-promotion/assets/screen@2x-CtwrLO4c.png 2x"
+        alt="screen"
+        width="351"
+        height="331"
+      />
+    </div>
+    <div class="footer-content-box">
+      <div class="footer-soc-menu">
+        <a class="footer-soc-logo-link" href="./index.html"
+          ><img
+            class="footer-logo"
+            src="data:image/svg+xml,%3csvg%20width='40'%20height='36'%20viewBox='0%200%2040%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M3.13307%2034.1139C1.40988%2034.1139%201.59211e-07%2032.7182%201.47613e-07%2031.0122L7.38884e-08%2020.1682L7.88631%2020.1682L7.88631%2020.1562L12.6263%2020.1562C13.8482%2020.1251%2014.8821%2019.0706%2014.8821%2017.8299C14.8821%2016.5582%2013.8168%2015.5036%2012.5323%2015.5036L6.26614%2015.5036L6.26614%2015.5055L4.21887e-08%2015.5055L2.10878e-08%2012.4018C9.48962e-09%2010.6959%201.40988%209.30012%203.13307%209.30012L12.5323%209.30012C14.9134%209.30012%2016.9499%2010.1376%2018.6104%2011.8125C20.3023%2013.4564%2021.1482%2015.4726%2021.1482%2017.8299C21.1482%2020.1562%2020.3336%2022.1723%2018.6731%2023.8162C17.0126%2025.4601%2015.0074%2026.3286%2012.6576%2026.3596L6.26614%2026.3596L6.26614%2031.0122C6.26614%2032.7182%204.85626%2034.1139%203.13307%2034.1139Z'%20fill='%2302BC6B'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M25.0975%205.7002C28.5589%209.0287%2030.3031%2013.1742%2030.3031%2017.8865C30.3031%2022.5197%2028.6319%2026.6613%2025.2239%2030.0002L20.3852%2025.4931C22.5047%2023.4166%2023.545%2020.9166%2023.545%2017.8865C23.545%2014.8333%2022.4734%2012.3372%2020.3031%2010.2502L25.0975%205.7002Z'%20fill='%2302897A'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M32.5055%20-3.14562e-08C37.4911%204.92801%2039.9999%2011.0384%2039.9999%2018.0514C39.9999%2024.9549%2037.5922%2031.0614%2032.6884%2036L28.0186%2031.4828C31.6715%2027.8041%2033.4614%2023.3422%2033.4614%2018.0514C33.4614%2012.7074%2031.6111%208.24939%2027.8787%204.56008L32.5055%20-3.14562e-08Z'%20fill='%23035B81'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0%2026.3857L6.26614%2026.3857L6.26614%2031.0126C6.26614%2032.7186%204.85626%2034.1143%203.13307%2034.1143C1.40988%2034.1143%204.30547e-08%2032.7186%203.14565e-08%2031.0126L0%2026.3857Z'%20fill='%23028E37'/%3e%3c/svg%3e"
+            alt="logo"
+            width="40"
+            height="36"
+          />Product</a
+        >
+        <ul class="footer-soc-list">
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link"
+              target="_blank"
+              aria-label="instagram-link"
+              href=""
+              ><svg class="footer-soc-icon" width="24" height="24">
+                <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-instagram"></use></svg
+            ></a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link"
+              target="_blank"
+              aria-label="facebook-link"
+              href=""
+              ><svg class="footer-soc-icon" width="24" height="24">
+                <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-facebook"></use></svg
+            ></a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link"
+              target="_blank"
+              aria-label="twitter-link"
+              href=""
+              ><svg class="footer-soc-icon" width="24" height="24">
+                <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-twitter"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <ul class="footer-menu">
+        <li class="footer-item">
+          <ul class="footer-menu-left">
+            <li class="footer-menu-left-item">
+              <h3 class="footer-menu-subtitle">Resource</h3>
+            </li>
+            <li class="footer-menu-left-item">
+              <a class="footer-menu-link" href="">About Us</a>
+            </li>
+            <li class="footer-menu-left-item">
+              <a class="footer-menu-link" href="">Blog</a>
+            </li>
+            <li class="footer-menu-left-item">
+              <a class="footer-menu-link" href="">Contact</a>
+            </li>
+            <li class="footer-menu-left-item">
+              <a class="footer-menu-link" href="">FAQ</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-item">
+          <ul class="footer-menu-right">
+            <li class="footer-menu-right-item">
+              <h3 class="footer-menu-subtitle">Legal Stuff</h3>
+            </li>
+            <li class="footer-menu-right-item">
+              <a class="footer-menu-link" href="">Disclaimer</a>
+            </li>
+            <li class="footer-menu-right-item">
+              <a class="footer-menu-link" href="">Financing</a>
+            </li>
+            <li class="footer-menu-right-item">
+              <a class="footer-menu-link" href="">Privacy Policy</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="footer-form-box">
+        <p class="footer-form-subtitle">
+          knowing you're always on the best energy deal.
+        </p>
+        <form class="footer-form">
+          <label class="footer-label" for="user-tel"
+            ><input
+              class="footer-input"
+              id="user-tel"
+              name="user-tel"
+              type="tel"
+              placeholder="Enter your phone number"
+              required /><svg class="footer-input-icon" width="18" height="28">
+              <use href="/business-promotion/assets/icons-D4ZmVwyl.svg#icon-mobile-screen"></use></svg
+          ></label>
+          <button class="footer-form-btn" type="submit">Sign up Now</button>
+        </form>
+      </div>
+    </div>
+    <p class="footer-text-bottom">
+      Made With Love By Figmaland All Right Reserved
     </p>
   </div>
 </footer>
