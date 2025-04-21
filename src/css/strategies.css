@@ -56,3 +56,6 @@
 .strategies-item:hover .strategiesitem-subtitle {
   color: #02897a;
 }
+
+@media screen and (min-width: 1150px) {
+}

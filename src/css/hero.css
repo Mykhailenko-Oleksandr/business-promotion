@@ -95,6 +95,7 @@
   .hero-image {
     width: 610px;
     height: 555px;
+    margin-bottom: 0;
   }
 
   .hero-title {
