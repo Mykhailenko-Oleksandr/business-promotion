@@ -7,6 +7,7 @@
 /* Sections style */
 @import url('./customer/header.css');
 @import url('./customer/clients.css');
+@import url('./customer/choose.css');
 @import url('./customer/work.css');
 @import url('./customer/join.css');
 @import url('./customer/footer.css');
