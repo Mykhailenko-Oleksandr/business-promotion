@@ -1,0 +1,12 @@
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./customer/header.css');
+@import url('./customer/clients.css');
+@import url('./customer/work.css');
+@import url('./customer/join.css');
+@import url('./customer/footer.css');

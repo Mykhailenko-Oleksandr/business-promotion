@@ -1,0 +1,48 @@
+.clients {
+  padding-top: 50px;
+  padding-bottom: 77px;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 52px;
+}
+
+.clients-img.microsoft-logo {
+  width: 164px;
+  height: 34px;
+}
+
+@media screen and (min-width: 1150px) {
+  .clients {
+    padding-top: 100px;
+    padding-bottom: 117px;
+  }
+
+  .clients-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  .clients-list {
+    row-gap: unset;
+    gap: 64px;
+    justify-content: center;
+  }
+
+  .clients-img.microsoft-logo {
+    width: unset;
+    height: unset;
+  }
+}
