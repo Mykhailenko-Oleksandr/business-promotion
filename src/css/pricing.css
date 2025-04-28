@@ -1,0 +1,13 @@
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./pricing/header.css');
+@import url('./pricing/price.css');
+@import url('./pricing/enteprise.css');
+@import url('./pricing/effect.css');
+@import url('./pricing/question.css');
+@import url('./pricing/footer.css');
