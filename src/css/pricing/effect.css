@@ -1,0 +1,105 @@
+.effect {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.effect-title {
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 33px;
+}
+
+.effect-content-box {
+}
+
+.effect-img-mob {
+  margin-bottom: 32px;
+}
+
+.effect-img-desk {
+  display: none;
+}
+
+.effect-list {
+}
+
+.effect-item:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+.effect-subtitle-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+
+.effect-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f5f7;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.effect-icon {
+}
+
+.effect-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.effect-text {
+  line-height: 1.75;
+  max-width: 338px;
+}
+
+@media screen and (min-width: 1150px) {
+  .effect {
+    padding-top: 150px;
+    padding-bottom: 75px;
+  }
+
+  .effect-title {
+    font-size: 34px;
+    margin-bottom: 56px;
+  }
+
+  .effect-content-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .effect-img-mob {
+    display: none;
+  }
+
+  .effect-img-desk {
+    display: block;
+    position: relative;
+    top: 6px;
+  }
+
+  .effect-subtitle-box {
+    gap: 14px;
+  }
+
+  .effect-item:not(:last-of-type) {
+    margin-bottom: 32px;
+  }
+
+  .effect-text {
+    max-width: unset;
+  }
+
+  .effect-text:last-of-type {
+    max-width: 506px;
+  }
+}
